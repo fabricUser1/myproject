@@ -18,7 +18,7 @@
 # CELL ********************
 
 df = spark.read.format("csv").option("header", "true").load("Files/bronze/sales.csv")
-display(df)
+
 
 # METADATA ********************
 
